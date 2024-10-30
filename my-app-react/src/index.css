@@ -128,3 +128,6 @@ body {
     cursor: pointer;
     border-radius: 15px;
 }
+.top-right-icon:hover {
+    transform: scale(1.2);
+}

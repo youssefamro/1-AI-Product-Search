@@ -57,7 +57,18 @@ function ResultsPage() {
     return (
         <div>
             
+                <div>
+                
+                <a href="https://github.com/youssefamro/1-AI-Product-Search" target="_blank" rel="noopener noreferrer">
+                <img 
+                    src="/GitHub-Mark.png"   // Directly references the image in the public folder
+                    alt="GitHub Icon"
+                    className="top-right-icon"
+                />
+            </a>
+    
             <h1>AI Product</h1>
+        </div>
             
             <div className="input-container">
                 <input  
