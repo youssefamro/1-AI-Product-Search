@@ -1,0 +1,130 @@
+h1{
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;
+    color:white;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    color:white;
+    
+}
+body {
+    background-color: rgb(24, 21, 21);
+    align-items: center;
+}
+.Search-input{
+    flex: 1; /* Allow the input to grow and take remaining space */
+    padding: 10px 20px; /* Padding inside the input */
+    border: 3px solid #3498db; /* Border thickness and color */
+    border-radius: 50px; /* Circular border */
+    outline: none; /* Remove default outline on focus */
+    font-size: 16px; /* Font size */
+    margin-right: 10px; /* Space between input and button */
+
+}
+.Search-button{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Optional: circular border for the button */
+    background-color: #3498db; /* Button background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size */
+}
+.input-container{
+    display: flex; /* Use flexbox for layout */
+    width: 100%; /* Container takes full width of the page */
+    max-width: 800px; /* Optional max-width for the container */
+    margin: 0 auto; /* Center the container */
+    justify-content: space-between;
+}
+.paragraph{
+    margin-top: 20px;
+    padding: 15px;
+    position: absolute; /* Absolute positioning */
+    margin: 0;
+    font-size: 1.2em;
+    color: rgb(194, 188, 188);
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;             /* Allows items to wrap if needed */
+    justify-content: center;      /* Center items horizontally */
+    gap: 1rem;                    /* Space between items */
+    list-style-type: none;        /* Removes bullet points */
+    padding: 0;
+    margin: 0 auto;               /* Centers the list container */
+    max-width: 100%;              /* Optional: Limits container width */
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;          /* Stack children vertically */
+    justify-content: space-between;  /* Create space between items */
+    align-items: center;             /* Center items horizontally */
+    width: 200px;
+    height: 300px;                  /* Fixed height for consistency */
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #d4faf5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.product-price{
+    padding: 15px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;     /* Optional: rounded corners */
+    background-color: #f9f9f9; /* Background color */
+    margin: 5px 0;          /* Spacing */
+    font-size: 1em;         /* Font size */
+    color: #333;            /* Text color */
+    text-align: center;     /* Center the text */
+}
+
+.product-link {
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-link:hover {
+    text-decoration: underline;
+}
+.category-list{
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+.top-right-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;              /* Adjust as needed */
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px;
+}
